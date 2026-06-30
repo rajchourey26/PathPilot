@@ -112,9 +112,7 @@ npm run dev
 
 **Deployed App**
 
-(Add your Google AI Studio deployment link here before submission.)
-
----
+Deployment: Pending---
 
 ## 📖 Use Cases
 
