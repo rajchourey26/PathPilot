@@ -1,0 +1,6 @@
+{
+  "name": "PathPilot",
+  "description": "A minimal, modern productivity pilot that converts chaotic tasks and deadlines into laser-focused, realistic action paths.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
