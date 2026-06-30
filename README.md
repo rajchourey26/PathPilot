@@ -14,8 +14,17 @@ Students, professionals, and entrepreneurs often struggle with overwhelming work
 
 ## 💡 Solution
 
-PathPilot uses Google Gemini AI to generate personalized study, work, and project plans. Instead of generic to-do lists, it creates focused, time-boxed roadmaps with priorities, estimated durations, progress tracking, and immediate next actions.
+PathPilot is an AI-powered productivity assistant that helps users transform overwhelming goals into realistic execution plans.
 
+Using Google's Gemini API, it analyzes the user's goal, available time, and deadline to generate:
+
+- Prioritized tasks
+- Smart scheduling
+- Time-boxed execution plans
+- Immediate next actions
+- Progress tracking
+
+Instead of overwhelming users with large to-do lists, PathPilot focuses on what matters most so users can make meaningful progress before their deadline.
 ---
 
 ## ✨ Features
@@ -108,11 +117,19 @@ npm run dev
 
 ---
 
-## 📸 Demo
+## Live Demo
 
-**Deployed App**
+https://pathpilot-1036507108731.asia-southeast1.run.app
+## 📸 Screenshots
 
-Deployment: Pending---
+### Home
+
+<img width="1890" height="892" alt="Home" src="https://github.com/user-attachments/assets/8d52146d-ac3a-45f5-a195-c1b7618e63a0" />
+### Generated Plan
+
+<img width="1866" height="911" alt="Screenshot 2026-06-30 222006" src="https://github.com/user-attachments/assets/6d3e1df7-0b0c-40e4-a026-43dd2c98f9a3" />
+
+<img width="1892" height="905" alt="Screenshot 2026-06-30 222039" src="https://github.com/user-attachments/assets/77850260-aa4c-4b32-bae5-c8f519039e2c" />
 
 ## 📖 Use Cases
 
