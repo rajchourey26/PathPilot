@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Cool Blue & Slate Palette */
+  --color-natural-bg: #F1F5F9;
+  --color-natural-panel: #F8FAFC;
+  --color-natural-border: #E2E8F0;
+  --color-natural-text-main: #334155;
+  --color-natural-text-dark: #0F172A;
+  --color-natural-text-muted: #94A3B8;
+  --color-natural-text-desc: #64748B;
+  
+  --color-natural-brand: #1E3A8A;
+  --color-natural-brand-hover: #1D4ED8;
+  
+  --color-natural-must-bg: #F0F9FF;
+  --color-natural-must-border: #BAE6FD;
+  --color-natural-must-text: #0369A1;
+  --color-natural-must-accent: #0284C7;
+  
+  --color-natural-skip-bg: #EEF2FF;
+  --color-natural-skip-border: #C7D2FE;
+  --color-natural-skip-text: #4F46E5;
+  --color-natural-skip-accent: #6366F1;
+  
+  --color-natural-accent: #0EA5E9;
+}
+
+/* Custom Scrollbar for a premium look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E2E8F0; /* matching slate border */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8; /* matching slate text muted */
+}
+
+/* 
+ * Smooth transition animation for the color change of the logo circle.
+ * This guarantees a graceful hue shift if the app theme is dynamically updated or toggled.
+ */
+#logo-button svg circle {
+  transition: stroke 0.7s cubic-bezier(0.4, 0, 0.2, 1), 
+              fill 0.7s cubic-bezier(0.4, 0, 0.2, 1), 
+              filter 0.7s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Subtle, elegant hue rotation when hovered or active */
+#logo-button:hover svg circle {
+  filter: hue-rotate(60deg) saturate(1.2);
+}
+
+
